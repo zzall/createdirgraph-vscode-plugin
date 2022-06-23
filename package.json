@@ -9,10 +9,10 @@
     "copy",
     "paste"
   ],
-	"homepage": "https://github.com/zzailianlian/replacefile-vscode-plugin/blob/master/README.md",
+	"homepage": "https://github.com/zzailianlian/createdirgraph-vscode-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zzailianlian/replacefile-vscode-plugin.git"
+    "url": "https://github.com/zzailianlian/createdirgraph-vscode-plugin.git"
   },
   "engines": {
     "vscode": "^1.68.0"
