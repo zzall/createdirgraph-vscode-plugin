@@ -1,0 +1,69 @@
+{
+  "name": "createdirgraph-vscode-plugin",
+  "displayName": "createDirGraph-vscode-plugin",
+  "description": "generate directory graph 一键生成目录结构图",
+	"publisher": "zzailianlian",
+  "version": "1.0.1",
+	"keywords": [
+    "directory",
+    "copy",
+    "paste"
+  ],
+	"homepage": "https://github.com/zzailianlian/replacefile-vscode-plugin/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzailianlian/replacefile-vscode-plugin.git"
+  },
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:getFileState"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "getFileState",
+        "title": "generate directory graph"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "getFileState",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "getFileState",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.68.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "eslint": "^8.16.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.2",
+    "@vscode/test-electron": "^2.1.3"
+  },
+  "dependencies": {
+    "node-clipboardy": "^1.0.3"
+  }
+}
