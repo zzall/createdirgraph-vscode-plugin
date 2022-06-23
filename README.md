@@ -14,13 +14,17 @@
 
 ```
 ├── .DS_Store
-├── bg.png
-├── icon_arrow.png
-├── icon_cancel.png
-├── icon_close.png
-├── icon_safe.png
-├── icon_trans.png
-├── icon_vip_activited.png
-└── main_bg_pink.webp
+├── images
+│   ├── .DS_Store
+│   ├── bg.png
+│   ├── icon_arrow.png
+│   ├── icon_cancel.png
+│   ├── icon_close.png
+│   ├── icon_safe.png
+│   ├── icon_trans.png
+│   ├── icon_vip_activited.png
+│   └── main_bg_pink.webp
+├── index.less
+└── index.vue
 ```
 
