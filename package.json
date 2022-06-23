@@ -2,24 +2,24 @@
   "name": "createdirgraph-vscode-plugin",
   "displayName": "createDirGraph-vscode-plugin",
   "description": "generate directory graph 一键生成目录结构图",
-	"publisher": "zzailianlian",
   "version": "1.0.1",
-	"keywords": [
-    "directory",
-    "copy",
-    "paste"
-  ],
-	"homepage": "https://github.com/zzailianlian/createdirgraph-vscode-plugin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zzailianlian/createdirgraph-vscode-plugin.git"
-  },
   "engines": {
     "vscode": "^1.68.0"
   },
   "categories": [
     "Other"
   ],
+  "publisher": "zzailianlian",
+  "keywords": [
+    "directory",
+    "copy",
+    "paste"
+  ],
+  "homepage": "https://github.com/zzailianlian/createdirgraph-vscode-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzailianlian/createdirgraph-vscode-plugin.git"
+  },
   "activationEvents": [
     "onCommand:getFileState"
   ],
