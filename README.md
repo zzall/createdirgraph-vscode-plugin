@@ -1,4 +1,4 @@
-# generate directory graph
+# Generate Directory Graph
 
 自动生成目录结构图并复制到系统剪切板
 
@@ -44,5 +44,5 @@
 
 ### vscode 插件市场安装
 
-* 直接在vscode左侧边栏找到「插件拓展」搜索安装即可
-* 在vscode的[官网插件市场](https://marketplace.visualstudio.com/)搜索下载
+* 直接在vscode左侧边栏找到「插件拓展」搜索`Generate Directory Graph`安装即可
+* 在vscode的[官网插件市场](https://marketplace.visualstudio.com/)搜索`Generate Directory Graph`下载
