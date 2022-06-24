@@ -1,5 +1,5 @@
 {
-  "name": "generate_directory_graph",
+  "name": "generate-directory-graph",
   "displayName": "Generate Directory Graph",
   "description": "generate directory graph 一键生成目录结构图并自动复制",
   "version": "1.2.3",
