@@ -6,5 +6,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+- `v.1.0.3` 初始化功能
 - `v.1.2.3` 更改`commands`名称
+- `v.1.3.3` 完善文档
