@@ -45,4 +45,11 @@
 ### vscode 插件市场安装
 
 * 直接在vscode左侧边栏找到「插件拓展」搜索`Generate Directory Graph`安装即可
+  ![vscode安装插件](https://tva1.sinaimg.cn/large/e6c9d24ely1h3javpumtvj20mq1aiq8k.jpg)
 * 在vscode的[官网插件市场](https://marketplace.visualstudio.com/)搜索`Generate Directory Graph`下载
+  ![插件市场安装](https://tva1.sinaimg.cn/large/e6c9d24ely1h3jax8p61yj218p0u0gqx.jpg)
+
+
+## 感谢
+
+插件继续大家的安装使用和打分支持！！！感谢！！！
