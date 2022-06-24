@@ -10,7 +10,7 @@ function activate(context) {
 
 	console.log('Congratulations, your extension "createdirgraph-vscode-plugin" is now active!');
 
-	let disposable = vscode.commands.registerCommand('getFileState', function (source, name2, name3) {
+	let disposable = vscode.commands.registerCommand('generateDirGraph', function (source, name2, name3) {
 		const { path: fsPath } = source || {};
 
 		if (fsPath) {
