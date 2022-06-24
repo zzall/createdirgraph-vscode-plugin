@@ -1,7 +1,7 @@
 {
   "name": "createdirgraph-vscode-plugin",
   "displayName": "Generate Directory Graph",
-  "description": "generate directory graph 一键生成目录结构图",
+  "description": "generate directory graph 一键生成目录结构图并自动复制",
   "version": "1.0.2",
   "icon": "icons/icon.png",
   "engines": {

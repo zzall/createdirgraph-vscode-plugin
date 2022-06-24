@@ -1,5 +1,7 @@
 # generate directory graph
 
+自动生成目录结构图并复制到系统剪切板
+
 ## 右键左侧栏的目录
 ![右键左侧栏目录](https://tva1.sinaimg.cn/large/e6c9d24ely1h3ie42tbgmj20g80kw755.jpg)
 
