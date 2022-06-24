@@ -32,9 +32,15 @@
 
 ## 安装
 
+### 本地安装
+
 1. 将目录的`.vsix`文件下载到本地
 2. vscode中打开插件侧边栏
 3. 点击`...`
 4. 点击`从VSIX安装...`
 5. 选择下载好的`.vsix`文件即可
 
+### vscode 插件市场安装
+
+* 直接在vscode左侧边栏找到「插件拓展」搜索安装即可
+* 在vscode的[官网插件市场](https://marketplace.visualstudio.com/)搜索下载
