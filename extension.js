@@ -37,13 +37,8 @@ function activate(context) {
 				})
 			}
 			traverse(fsPath)
-
-			// ncp.copy('index.js ├──', function () {
-			// // ncp.copy(allDirStr, function () {
-			// 	vscode.window.showInformationMessage('复制成功!');
-			// })
 			ncp2.writeSync(allDirStr);
-			vscode.window.showInformationMessage('复制成功!');
+			vscode.window.showInformationMessage('生成目录结构图成功，可直接粘贴查看!');
 		} else {
 			vscode.window.showErrorMessage('请选择文件目录');
 		}
