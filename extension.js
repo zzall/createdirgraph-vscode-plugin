@@ -25,7 +25,8 @@ function activate(context) {
 
         const config = vscode.workspace.getConfiguration('generateDirGraph');
         const ignoreFiles = config.get('ignoreFiles');
-        console.log('ignoreFiles', ignoreFiles);
+        const recursionDepth = config.get('recursionDepth');
+        console.log('recursionDepth', recursionDepth);
 
         const traverse = (dirname, level = 1) => {
           const dirs = fs.readdirSync(dirname);
@@ -39,7 +40,13 @@ function activate(context) {
 
             if (itemStat.isDirectory()) {
               allDirStr += currentDirStr;
-              traverse(path.resolve(dirname, item), level + 1);
+              if (recursionDepth) {
+                if (level <= Math.min(1, recursionDepth) - 1) {
+                  traverse(path.resolve(dirname, item), level + 1);
+                }
+              } else {
+                traverse(path.resolve(dirname, item), level + 1);
+              }
             } else {
               allDirStr += currentDirStr;
             }

@@ -34,10 +34,15 @@
 
 - generateDirGraph.ignorefiles
   - 默认忽略`node_modules`
+  - 可以通过新增`string`来手动控制其他要忽略的文件
 
-![设置示例图](https://tva1.sinaimg.cn/large/008vxvgGly1h7k0esftj0j30s70du0tc.jpg)
+![ignorefiles配置示例图](https://tva1.sinaimg.cn/large/008vxvgGly1h7k0esftj0j30s70du0tc.jpg)
 
-这里是`string[]`的格式,可以手动新增其他要忽略的文件
+- generateDirGraph.recursionDepth
+  - 递归深度，默认为递归到底
+  - 可以输入`number`来指定递归深度
+
+![recursionDepth配置示例图](https://tva1.sinaimg.cn/large/008vxvgGly1h7k2w3zrutj30l80ae3yu.jpg)
 
 ## 安装
 

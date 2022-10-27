@@ -6,6 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- `v.1.0.3` 初始化功能
-- `v.1.2.3` 更改`commands`名称
-- `v.1.3.3` 完善文档
+- `v1.0.3` 初始化功能
+- `v1.2.3` 更改`commands`名称
+- `v1.3.3` 完善文档，新增`ignoreFiles`忽略文件配置
+- `v1.4.3` 新增`recursionDepth`递归深度配置
