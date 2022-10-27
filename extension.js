@@ -30,7 +30,7 @@ function activate(context) {
         const traverse = (dirname, level = 1) => {
           const dirs = fs.readdirSync(dirname);
           dirs.forEach((item, index) => {
-            // if (ignoreFiles.includes(item)) return;
+            if (ignoreFiles.includes(item)) return;
             const itemStat = fs.statSync(path.join(dirname, item));
             const _dirstr = index === dirs.length - 1 ? lastDirStr : dirstr;
             const currentDirStr = `${linkDirStr.repeat(
