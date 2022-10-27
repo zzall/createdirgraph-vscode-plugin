@@ -41,7 +41,7 @@ function activate(context) {
             if (itemStat.isDirectory()) {
               allDirStr += currentDirStr;
               if (recursionDepth) {
-                if (level <= Math.min(1, recursionDepth) - 1) {
+                if (level <= Math.max(1, recursionDepth) - 1) {
                   traverse(path.resolve(dirname, item), level + 1);
                 }
               } else {

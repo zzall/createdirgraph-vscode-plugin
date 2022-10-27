@@ -2,7 +2,7 @@
   "name": "generate-directory-graph",
   "displayName": "Generate Directory Graph",
   "description": "generate directory graph 一键生成目录结构图并自动复制",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "icon": "icons/icon.png",
   "engines": {
     "vscode": "^1.68.0"
@@ -22,7 +22,7 @@
     "url": "https://github.com/zzailianlian/createdirgraph-vscode-plugin.git"
   },
   "activationEvents": [
-    "onCommand:generateDirGraph"
+    "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -36,7 +36,7 @@
       "explorer/context": [
         {
           "command": "generateDirGraph",
-          "group": "navigation",
+          "group": "9",
           "when": "explorerResourceIsFolder"
         }
       ],
