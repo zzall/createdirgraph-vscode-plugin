@@ -4,13 +4,13 @@
 
 ## 右键左侧栏的目录
 
-![右键左侧栏目录](https://tva1.sinaimg.cn/large/e6c9d24ely1h3ie42tbgmj20g80kw755.jpg)
+![右键左侧栏目录](https://camo.githubusercontent.com/90d219e8b093221b6387981a46ff437304442ffaf51fbcf26dbb5286d6bdbf1e/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c79316833696534327462676d6a32306738306b773735352e6a7067)
 
 ## 点击之后等待复制完成
 
 右下角弹出复制成功，此时手动粘贴即可看到目录的路径图
 
-![点击之后等待复制完成](https://tva1.sinaimg.cn/large/e6c9d24ely1h3ie5fr9ssj210g07at9d.jpg)
+![点击之后等待复制完成](https://camo.githubusercontent.com/77ff0d01d5883cdf26b1179746fa98986558e4102baca9bc3f16cb4eaf2a1247/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f65366339643234656c7931683369653566723973736a323130673037617439642e6a7067)
 
 ## 成品图样式
 
@@ -33,16 +33,16 @@
 ## 配置
 
 - generateDirGraph.ignorefiles
-  - 默认忽略`node_modules`
+  - 默认忽略`node_modules`、`.git`
   - 可以通过新增`string`来手动控制其他要忽略的文件
 
-![ignorefiles配置示例图](https://tva1.sinaimg.cn/large/008vxvgGly1h7k0esftj0j30s70du0tc.jpg)
+![ignorefiles配置示例图](https://camo.githubusercontent.com/878c2acceabd6be32184c60666ea69089cc30fe5b08c3a0db73b7e64d8f0fe0a/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f30303876787667476c793168376b30657366746a306a333073373064753074632e6a7067)
 
 - generateDirGraph.recursionDepth
   - 递归深度，默认为递归到底
   - 可以输入`number`来指定递归深度
 
-![recursionDepth配置示例图](https://tva1.sinaimg.cn/large/008vxvgGly1h7k2w3zrutj30l80ae3yu.jpg)
+![recursionDepth配置示例图](https://camo.githubusercontent.com/c2889a54b2ed818a9b3334f3308716fe0e0a7036b5afd4c04026a8ac87379473/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f30303876787667476c793168376b3277337a7275746a33306c383061653379752e6a7067)
 
 ## 安装
 

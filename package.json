@@ -2,7 +2,7 @@
   "name": "generate-directory-graph",
   "displayName": "Generate Directory Graph",
   "description": "generate directory graph 一键生成目录结构图并自动复制",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "icon": "icons/icon.png",
   "engines": {
     "vscode": "^1.68.0"
@@ -57,7 +57,8 @@
             "type": "string"
           },
           "default": [
-            "node_modules"
+            "node_modules",
+            ".git"
           ],
           "description": "Generate directory graph that removing these files, default ignored file is node_modules"
         },

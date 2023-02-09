@@ -5,22 +5,26 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+    
 		{
 			"name": "Run Extension",
 			"type": "extensionHost",
 			"request": "launch",
-			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
-			]
+			// "args": [
+			// 	// "--extensionDevelopmentPath='/Users/babytree/Desktop/babytree/h5_fe_tool'"
+			// 	"--extensionDevelopmentPath=${workspaceFolder}"
+			// ],
+      "cwd": "/Users/babytree/Desktop/babytree/h5_fe_tool/"
 		},
-		{
-			"name": "Extension Tests",
-			"type": "extensionHost",
-			"request": "launch",
-			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}",
-				"--extensionTestsPath=${workspaceFolder}/test/suite/index"
-			]
-		}
+		// {
+		// 	"name": "Extension Tests",
+		// 	"type": "extensionHost",
+		// 	"request": "launch",
+		// 	"args": [
+		// 		"--extensionDevelopmentPath=${workspaceFolder}",
+		// 		"--extensionTestsPath=${workspaceFolder}"
+		// 		// "--extensionTestsPath=${workspaceFolder}/test/suite/index"
+		// 	]
+		// }
 	]
 }
